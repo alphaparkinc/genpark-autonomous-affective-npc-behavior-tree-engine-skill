@@ -1,0 +1,38 @@
+{
+  "name": "genpark-autonomous-affective-npc-behavior-tree-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Autonomous affective NPC brain executing real-time emotion state transitions, memory recall, and behavior trees.",
+  "author": "genpark",
+  "category": "game-ai",
+  "tags": [
+    "speedrun-ai",
+    "npc-brain",
+    "behavior-tree",
+    "affective-computing",
+    "game-agent"
+  ],
+  "inputs": {
+    "npc_persona_id": {
+      "type": "string"
+    },
+    "player_dialogue": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "cognitive_turn_id": {
+      "type": "string"
+    },
+    "affective_state": {
+      "type": "object"
+    },
+    "dialogue_response": {
+      "type": "string"
+    },
+    "speech_audio_stream_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
